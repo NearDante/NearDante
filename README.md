@@ -1,95 +1,101 @@
 # Ezequiel Dante Aruquipa Vargas
 
-## Data Engineer
+### Data Engineer · Python · PySpark · SQL · AWS
 
-I build data-intensive systems with a focus on **data pipelines, real-time processing, cloud infrastructure, and backend engineering**.
+I build **data pipelines and backend systems** focused on real-time processing, cloud infrastructure, and reliable data products.
 
-My current focus is Data Engineering with **Python, PySpark, SQL, AWS, streaming systems, Docker, and infrastructure automation**.
+My current focus is **Data Engineering**: turning event streams into useful, testable, and production-oriented data systems.
 
-### Technical focus
-
-**Data Engineering**
-- Python
-- PySpark / Spark Structured Streaming
-- SQL
-- Apache Parquet
-- Data pipelines and event processing
-- Batch and streaming architectures
-
-**Cloud & Data Infrastructure**
-- AWS
-- Amazon S3
-- Amazon Kinesis
-- Redis
-- Terraform
-- LocalStack
-
-**Software Engineering**
-- Rust
-- Docker / Docker Compose
-- GitHub Actions
-- Linux
-- REST APIs
-- Backend services
-
-### Featured project
-
-**Real-Time E-Commerce Search Feature & Event Pipeline**
-
-A production-oriented data engineering project that processes e-commerce search events in real time.
-
-**Architecture**
-
-`Rust Producer → Kinesis → PySpark Structured Streaming → S3/Parquet + Redis → REST API`
-
-The project demonstrates:
-- Event-driven data ingestion
-- Kinesis-based streaming
-- PySpark Structured Streaming
-- 5-minute tumbling windows
-- 10-minute event-time watermarking
-- Feature materialization to S3/Parquet and Redis
-- REST serving of real-time features
-- Dockerized local infrastructure with LocalStack
-- Automated tests and CI validation
-
-[View the project →](https://github.com/NearDante/search-data-pipeline)
-
-### Other projects
-
-**Backend API — tienda-nodejs**
-
-REST API for a product catalog built with Node.js, Express, Firebase Firestore, JWT authentication, dotenv, and CORS.
-
-[View repository →](https://github.com/NearDante/tienda-nodejs)
-
-### Engineering approach
-
-I care about building systems that are:
-- Reproducible
-- Testable
-- Observable
-- Documented
-- Automated through CI/CD
-- Designed with clear data contracts and infrastructure boundaries
-
-### Education
-
-**Ingeniería en Sistemas de Información — Universidad Tecnológica Nacional (UTN)**
-
-Argentina
-
-### Current focus
-
-I'm developing my Data Engineering portfolio around **cloud data platforms, streaming pipelines, distributed processing, and production-oriented engineering practices**.
-
-My goal is to continue growing toward Data Engineering roles where software engineering and data infrastructure meet.
-
-### Contact
-
-- GitHub: [github.com/NearDante](https://github.com/NearDante)
-- Email: ezequieldante96@gmail.com
+[GitHub](https://github.com/NearDante) · [Email](mailto:ezequieldante96@gmail.com)
 
 ---
 
-> Data Engineering · Streaming · Cloud · Backend Engineering
+## What I work with
+
+| Area | Technologies |
+|---|---|
+| **Data Engineering** | Python · PySpark · Spark Structured Streaming · SQL · Parquet |
+| **Cloud & Data** | AWS · S3 · Kinesis · Redis · Terraform · LocalStack |
+| **Engineering** | Rust · Docker · GitHub Actions · Linux |
+| **Backend** | REST APIs · Axum · Node.js · Express |
+
+---
+
+## Featured project
+
+### Real-Time E-Commerce Search Feature & Event Pipeline
+
+A production-oriented streaming data pipeline that processes e-commerce search events and materializes real-time features for serving.
+
+```
+Rust Producer
+     ↓
+AWS Kinesis
+     ↓
+PySpark Structured Streaming
+     ↓
+S3 / Parquet + Redis
+     ↓
+Rust REST API
+```
+
+**Highlights**
+- Event-driven ingestion with Kinesis
+- 5-minute tumbling windows
+- 10-minute event-time watermark
+- Feature materialization to S3/Parquet and Redis
+- REST API for low-latency feature serving
+- Dockerized local AWS environment with LocalStack
+- Automated testing and CI validation
+- Infrastructure and configuration designed for reproducible development
+
+**Repository:** [NearDante/search-data-pipeline](https://github.com/NearDante/search-data-pipeline)
+
+---
+
+## Selected project
+
+### tienda-nodejs
+
+REST API for a product catalog using Node.js, Express, Firebase Firestore, JWT authentication, dotenv, and CORS.
+
+**Repository:** [NearDante/tienda-nodejs](https://github.com/NearDante/tienda-nodejs)
+
+---
+
+## Engineering principles
+
+I focus on building systems that are:
+
+- **Reproducible** — infrastructure and development environments can be recreated consistently.
+- **Testable** — important behavior is validated through automated tests and integration checks.
+- **Observable** — pipelines expose useful signals for understanding processing and failures.
+- **Documented** — architecture, setup, validation, and operational details are treated as part of the implementation.
+- **Automated** — CI/CD is used to make validation repeatable.
+- **Clear by design** — data contracts, infrastructure boundaries, and service responsibilities are explicit.
+
+---
+
+## Education
+
+**Ingeniería en Sistemas de Información**  
+Universidad Tecnológica Nacional (UTN) · Argentina
+
+---
+
+## Current focus
+
+Building a stronger Data Engineering portfolio around:
+
+**Cloud data platforms · Streaming pipelines · Distributed processing · Data infrastructure · Production-oriented software engineering**
+
+---
+
+## Contact
+
+**GitHub:** [github.com/NearDante](https://github.com/NearDante)  
+**Email:** [ezequieldante96@gmail.com](mailto:ezequieldante96@gmail.com)
+
+---
+
+*Data Engineering · Streaming · Cloud · Backend Engineering*
